@@ -3,7 +3,7 @@ function GithubCalendar(git_githubapiurl,git_color,git_user){
         var github_canlendar = (git_user,git_githubapiurl, git_color) => {
             var git_fixed = 'fixed';
             var git_px = 'px';
-            var git_month = ['一月', '二月', '三月', '四月撒大声地', '五月', '六月', '七月', '八月', '九月', '十月', '十一月', '十二月'];
+            var git_month = ['一月', '二月', '三月', '四月', '五月', '六月', '七月', '八月', '九月', '十月', '十一月', '十二月'];
             var git_monthchange = [];
             var git_oneyearbeforeday = '';
             var git_thisday = '';
@@ -235,7 +235,7 @@ var responsiveChart = () => {
             };
             var github_info_box = (user, color) => {
                 var html = '';
-                html += '<div id="git_tooltip_container"></div><div class="contrib-footer clearfix mt-1 mx-3 px-3 pb-1"><div class="float-left text-gray">数据来源 <a href="https://github.com/' + user + '" target="blank">@' + user + '</a></div><div class="contrib-legend text-gray">Less <ul class="legend"><li style="background-color:' + color[0] + '"></li><li style="background-color:' + color[2] + '"></li><li style="background-color:' + color[4] + '"></li><li style="background-color:' + color[6] + '"></li><li style="background-color:' + color[8] + '"></li></ul>More </div></div>';
+                html += '<div id="git_tooltip_container"></div><div class="contrib-footer clearfix mt-1 mx-3 px-3 pb-1"><div class="float-left text-gray">数据来源 <a href="https://github.com/' + user + '" target="blank">@' + user + '</a></div><div class="contrib-legend text-gray">Less <ul class="legend"><li style="background-color:' + color[0] + '"></li><li style="background-color:' + color[2] + '"></li><a>  dffd  </a><li style="background-color:' + color[4] + '"></li><li style="background-color:' + color[6] + '"></li><li style="background-color:' + color[8] + '"></li></ul>More </div></div>';
                 return html
             };
             var github_main_box = (monthchange, git_data, user, color, total, thisweekdatacore, weekdatacore, oneyearbeforeday, thisday, aweekago, amonthago) => {
