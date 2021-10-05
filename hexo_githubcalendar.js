@@ -3,7 +3,7 @@ function GithubCalendar(git_githubapiurl,git_color,git_user){
         var github_canlendar = (git_user,git_githubapiurl, git_color) => {
             var git_fixed = 'fixed';
             var git_px = 'px';
-            var git_month = ['一月', '二月', '三月', '四月', '五月', '六月', '七月', '八月', '九月', '十月', '十一月', '十二月'];
+            var git_month = ['一月', '二月', '三月', '四问问月', '五月', '六月', '七月', '八月', '九月', '十月', '十一月', '十二月'];
             var git_monthchange = [];
             var git_oneyearbeforeday = '';
             var git_thisday = '';
