@@ -264,7 +264,7 @@ var responsiveChart = () => {
             } else {
                 parent.appendChild(text)
             }
-        };
+        }; 
         var github_container = document.getElementById('github_container');
         var github_loading = document.getElementById('github_loading');
         github_canlendar(git_user,git_githubapiurl, git_color)}
