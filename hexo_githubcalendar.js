@@ -235,7 +235,7 @@ var responsiveChart = () => {
             };
             var github_info_box = (user, color) => {
                 var html = '';
-                html += '<div id="git_tooltip_container"></div><div class="contrib-footer clearfix mt-1 mx-3 px-3 pb-1"><div class="float-left text-gray">数据来源 <a href="https://github.com/' + user + '" target="blank">@' + user + '</a></div><div class="contrib-legend text-gray">Less <ul class="legend"><li style="background-color:' + color[0] + '"></li><<a> </a>li style="background-color:' + color[2] + '"></li><a> </a><li style="background-color:' + color[4] + '"></li><a> </a><li style="background-color:' + color[6] + '"></li><a> </a><li style="background-color:' + color[8] + '"></li></ul>More </div></div>';
+                html += '<div id="git_tooltip_container"></div><div class="contrib-footer clearfix mt-1 mx-3 px-3 pb-1"><div class="float-left text-gray">From <a href="https://github.com/' + user + '" target="blank">@' + user + '</a></div><div class="contrib-legend text-gray">Less <ul class="legend"><li style="background-color:' + color[0] + '"></li><a> </a><li style="background-color:' + color[2] + '"></li><a> </a><li style="background-color:' + color[4] + '"></li><a> </a><li style="background-color:' + color[6] + '"></li><a> </a><li style="background-color:' + color[8] + '"></li></ul>More </div></div>';
                 return html
             };
             var github_main_box = (monthchange, git_data, user, color, total, thisweekdatacore, weekdatacore, oneyearbeforeday, thisday, aweekago, amonthago) => {
